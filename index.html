@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Search App</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Pokemon Search App</h1>
+    </header>
+    <main>
+    <article class="main-container">
+      <section class="container-1">
+        <p class="subtitle">Search for Pokémon Name or ID:</p>
+        <input id="search-input" type="text" required>
+        <button id="search-button">Search</button>
+      </section>
+
+      <section class="container-2">
+        <div class="pokemon-data">
+          <p id="pokemon-name"></p>
+          <p id="pokemon-id"></p>
+        </div>
+
+        <div class="size">
+          <p id="weight"></p>
+          <p id="height"></p>
+        </div>
+
+        <div class="container-img"></div>
+
+        <div class="types" id="types">
+        </div>
+      </section>
+
+      <section class="container-3">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th id="base">Base</th>
+              <th id="stats">Stats</th>
+            </tr>
+            <tr>
+              <th>Hp:</th>
+              <th id="hp" class="stat"></th>
+            </tr>
+            <tr>
+              <th>Attack:</th>
+              <th id="attack" class="stat"></th>
+            </tr>
+            <tr>
+              <th>Defense:</th>
+              <th id="defense" class="stat"></th>
+            </tr>
+            <tr>
+              <th>Sp. attack:</th>
+              <th id="special-attack" class="stat"></th>
+            </tr>
+            <tr>
+              <th>Sp. Defense:</th>
+              <th  id="special-defense" class="stat"></th>
+            </tr>
+            <tr>
+              <th>Speed</th>
+              <th id="speed" class="stat"></th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="container-final">
+        <button class="clear-btn" id="clear-btn">Clear</button>
+        </section>
+    </article>
+    </main>
+        <footer>
+          </footer>
+      <script src="script.js"></script>
+    </body>
+</html>
